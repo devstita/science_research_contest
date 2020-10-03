@@ -2,8 +2,9 @@ import tensorflow as tf
 
 # TODO: ML Model Accuracy
 model = tf.keras.Sequential([
-    tf.keras.layers.Dense(128, activation='relu', input_shape=[1]),
-    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Dense(30, activation='relu', input_shape=[1]),
+    tf.keras.layers.Dense(60, activation='relu'),
+    tf.keras.layers.Dense(30, activation='relu'),
     tf.keras.layers.Dense(1)
 ])
 
